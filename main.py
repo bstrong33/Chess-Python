@@ -892,6 +892,12 @@ def check_for_checkmate(self, board, king):
                             return False
     
     print("Checkmate!")
+    if (self.turn == "white"):
+        self.display_text = "Checkmate, Black Wins!"
+        app.display.text = "Checkmate, Black Wins!"
+    else:
+        self.display_text = "Checkmate, White Wins!"
+        app.display.text = "Checkmate, White Wins!"
     self.turn = ""
     app.control_panel.add_widget(self.new_game)
     return True
