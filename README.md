@@ -11,12 +11,12 @@ Image showing the starting position:
 
 Image showing castling:
 
-![Castling][Castling.png]
+![Castling](Castling.png)
 
 Image showing pawn promotion. In the top right, white has promoted to a queen. In the bottom left, black is about to promote and has button options to choose which piece to promote to:
 
-![Promotion][Promotion.png]
+![Promotion](Promotion.png)
 
 Image showing checkmate and option to start new game:
 
-![Checkmate][Checkmate.png]
+![Checkmate](Checkmate.png)
